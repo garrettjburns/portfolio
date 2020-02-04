@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Contact Garrett</title>
+<link rel="stylesheet" href="Garretts-style.CSS">
+<script src="contactValidate.js"></script>
+</head>
+<body> 
+<h1 class = "title"> C O N T A C T</h1>
+<nav>
+	<ul class = "navlist">
+	<li class = "navitem"><a href ="Garretts-mainpage.html"> MAIN</a></li>
+	<li class = "navitem"><a href ="Garretts-photos.html"> PHOTOS</a></li>
+	<li class = "navitem"><a href ="Garretts-recommendations.html"> RECOMMENDATIONS</a></li>
+	<li class = "navitem"><a href ="Garretts-updates.html"> UPDATES</a></li>
+	<li class = "navitem"><a href ="Garretts-contact.html"> CONTACT</a></li>
+	<li class = "navitem"><a href ="Garretts-resume.html">RESUME</a></li>
+</ul>
+</nav>
+
+<div class = 'container'>
+  <form name='contactForm' id='contactForm' action="contact_submission.php" method='post' onsubmit='return contactValidate();'>
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="email">Email address</label>
+    <input type="text" id="email" name="email" placeholder="Your email address..">
+
+    <label for="location">Location</label>
+    <select id="location" name="country">
+      <option value="boston">Boston</option>
+      <option value="outside-boston">Outside Boston</option>
+    </select>
+
+    <label for="subject">Reach out</label>
+    <textarea id="subject" name="subject" placeholder="Hi Garrett, I'm writing because..." style="height:200px"></textarea>
+
+    <input type="submit" value="S U B M I T">
+  </form>
+</div>
+</body>
+</head>
+</html>

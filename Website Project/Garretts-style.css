@@ -1,0 +1,150 @@
+body {
+	background-image: url("grey-tile-background.jpg");
+	background-color: #F2F2F2;
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+
+.title {
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+	color: white;
+	text-align: center;
+	background-color: #C2C2C2;
+	padding: 20px;
+
+}
+
+.navlist {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: #C2C2C2;
+}
+
+.navitem {
+	float: left;
+}
+
+.navitem a {
+	color: white;
+	text-align: center;
+	padding: 0px 70px;
+	text-decoration: none;
+}
+
+.navitem a:hover {
+	background-color: #F2F2F2;
+	color: black;
+}
+
+.Articles {
+	margin: auto;
+	width: 80%;
+}
+
+
+.Articles h2 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.Updates-text td{
+	padding: 0px 20px;
+	border: 5px solid black
+	border-radius: 1px;
+}
+
+.Updates-text tr {
+	background-color: white;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+.circle {
+	border-radius: 50%;
+}
+
+
+/* STLYING FOR FORM */
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; /
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+/* syling for submit button */
+input[type=submit] {
+  background-color: ##C2C2C2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+}
+/* hover styling for form's submit button */
+input[type=submit]:hover {
+   background-color: #F2F2F2;
+
+}
+
+ /* padding and border for form */
+.container {
+  border-radius: 5px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.resume {
+ padding: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* styling for gallery slideshow */
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 60%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+/* styling for ratings */
+#main-wrapper {
+    width: 970px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#main-wrapper img {
+    width: 200px;
+}
